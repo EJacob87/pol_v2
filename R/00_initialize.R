@@ -1,6 +1,7 @@
 # Este código tiene los parametros y las funciones que usan los demás procesos. 
 # Los otros códigos corren este al principio con la línea:
 # source('R/initialize.R')
+# Esto es un aprueba para adrian
 
 # Load libraries ----
 library('tools')
