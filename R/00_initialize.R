@@ -92,6 +92,7 @@ zones_ras_fp <- file.path(zone_polys_dir, str_c(zones_fn, '.tif'))
 zones_lu_fp <- file.path(zone_polys_dir, str_c(zones_fn, '_lu.rds'))
 
 # Mexico for masking and mapping
+sf::sf_use_s2(FALSE) # NOTA DE YAYO: OJO CON ESTO, USAR REBUILD O REVISAR CAPOA DE ENTRADA
 mex_fp <- 'data/input_data/context_Mexico/SNIB_dest2018gw/dest2018gw.shp'
 mex <- st_read(mex_fp)
 mex0 <- st_union(mex)
@@ -767,3 +768,4 @@ rasterize_zones <- function(zones_fp, rich_ras, field = 'zone',
   # Return
   return(list(r = ras_out, lu = lu_vect))
 }
+
