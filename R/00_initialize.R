@@ -1,6 +1,3 @@
-###
-#
-
 # Este código tiene los parametros y las funciones que usan los demás procesos. 
 # Los otros códigos corren este al principio con la línea:
 # source('R/initialize.R')
