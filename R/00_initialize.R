@@ -1,5 +1,3 @@
-# Hola Jacob, CONTESTAME ACA PARA SABER QUE YA PODES EMPUJAR CAMBIOS
-#A VER PROBEMOS!
 # Este código tiene los parametros y las funciones que usan los demás procesos. 
 # Los otros códigos corren este al principio con la línea:
 # source('R/initialize.R')
